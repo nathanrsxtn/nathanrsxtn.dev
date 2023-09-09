@@ -27,7 +27,7 @@
 body {
     display: flex;
     position: absolute;
-    inset: min(5em, calc(5 * var(--f-em-to-vm)));
+    inset: min(5em, calc(5 * var(--f-em-to-vm) * exp(-1)));
     flex-flow: column nowrap;
     margin: 0;
     border-radius: 0.6em;
